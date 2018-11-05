@@ -1,5 +1,6 @@
 ﻿using Decorator.DecoratorLevelUp;
 using Decorator.DecoratorLevelUp.ElfLevelUp;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -46,8 +47,9 @@ namespace Decorator
             //EvilMage evilMage = new EvilMage(elfMage2);
             //evilMage.Show();
 
+            Console.Read();
 
-
+            return ;
         }
     }
 }
